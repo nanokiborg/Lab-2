@@ -12,7 +12,7 @@ while True:
             output.write(f'{row[3]}. {row[1][1:]} - {row[6][6:][:4]}\n')
             flag += 1
             if flag == 20:
-                print(" Done ")
+                print("Done")
                 break
     if flag == 20:
         break
